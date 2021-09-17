@@ -30,8 +30,16 @@ class stu
 // Execution class
 public class Demo1 {
   public static void main(String[] args) {
-  stu obj1 = new stu();
+ // int arr1[]= new int[5];
+  stu arr2[]= new stu[5];
+    for (int i = 0; i < arr2.length; i++) {
+      arr2[i]= new stu();
+    }
+    for (int i = 0; i <arr2.length ; i++) {
+      arr2[i].display();
+    }
 
+  stu obj1 = new stu();
   stu obj2 = new stu();
   obj1.display();
   obj2.display();
